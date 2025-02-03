@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #a8bfc9;
+	font-family: "Outfit";
+	text-transform: uppercase;
+}
+
+.logo svg:first-child path {
+	fill: #31c3bd;
+}
+
+.logo svg:last-child path {
+	fill: #f2b137;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	background-color: #1a2a33;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: 100vh;
+	max-width: 320px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	width: 100%;
+}
+
+.startgame {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 100%;
+	border-radius: 16px;
+}
+
+.pickfirst * {
+	text-align: center;
+}
+
+.pickfirst {
+	display: flex;
+	flex-direction: column;
+	border-radius: 8px;
+	background-color: #1f3641;
+	padding: 24px;
+	gap: 16px;
+	width: 100%;
+}
+
+.options {
+	padding: 8px;
+	display: flex;
+	background-color: #1a2a33;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.options > * {
+	width: 100%;
+	padding: 4px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.options .selected {
+	background-color: #a8bfc9;
+}
+
+.options .selected path {
+	fill: #1a2a33;
+}
+
+.startgame a {
+	border: none;
+	border-radius: 8px;
+	padding: 12px 32px 12px 32px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.startgame a:first-child {
+	background-color: #f2b137;
+	box-shadow: 0px 8px 0px 0px #cc8b13;
+}
+
+.startgame a:last-child {
+	background-color: #31c3bd;
+	box-shadow: 0px 8px 0px 0px #118c87;
+}
+
+.startgame a {
+	color: #1a2a33;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+}
